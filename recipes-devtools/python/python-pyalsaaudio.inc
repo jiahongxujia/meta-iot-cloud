@@ -9,7 +9,7 @@ PR = "r0"
 DEPENDS += "alsa-lib"
 
 RDEPENDS_${PN} += "\
-	alsa-lib \
+	libasound \
 "
 
 SRC_URI = "git://github.com/larsimmisch/pyalsaaudio.git"
