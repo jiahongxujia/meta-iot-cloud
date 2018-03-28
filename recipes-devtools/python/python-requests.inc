@@ -14,6 +14,8 @@ SRCREV = "7c67c4adf9020fe6e279f1633ca477ef2b89ae44"
 
 S = "${WORKDIR}/git"
 
+CLEANBROKEN = "1"
+
 RDEPENDS_${PN} += " \
 	${PYTHON_PN}-email \
 	${PYTHON_PN}-json \
