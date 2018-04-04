@@ -26,7 +26,6 @@ RDEPENDS_${PN} += " \
     ${PYTHON_PN}-pycparser \
     ${PYTHON_PN}-setuptools \
     ${PYTHON_PN}-six \
-    ${PYTHON_PN}-subprocess \
     ${PYTHON_PN}-threading \
 "
 
