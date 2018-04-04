@@ -6,10 +6,8 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=1a3b161aa0fcec32a0c8907a2219ad9d"
 
 PR = "r0"
 
-DEPENDS += "alsa-lib"
-
 RDEPENDS_${PN} += "\
-	libasound \
+	alsa-lib \
 "
 
 SRC_URI = "git://github.com/larsimmisch/pyalsaaudio.git"

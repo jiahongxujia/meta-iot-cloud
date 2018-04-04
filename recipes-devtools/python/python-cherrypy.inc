@@ -25,8 +25,6 @@ PR = "r0"
 
 S = "${WORKDIR}/git"
 
-CLEANBROKEN = "1"
-
 do_compile_prepend() {
 	# Fix-up setup script for older versions of setuptools
 	sed -i '119,121d' ${S}/setup.py
