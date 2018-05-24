@@ -31,3 +31,5 @@ RDEPENDS_${PN} += " \
 "
 
 BBCLASSEXTEND = "native nativesdk"
+
+CLEANBROKEN = "1"
